@@ -30,7 +30,7 @@ shannon_index_t
 
 
 ## Calculate mean Shannon's diversity index for each habitat 
-## (average of 4 transects)
+## (average of 3 transects)
 shannon_index_mean <- ddply(shannon_index_t, .(habitat), 
                          function(shannon_index_t)
                            mean(shannon_index_t$V1))
