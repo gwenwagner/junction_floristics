@@ -56,5 +56,7 @@ This folder contains:
 
 ## Citing this repository
 
-The current Zenodo doi badge for this repository is: 10.5281/zenodo.20947317
+The current Zenodo doi badge for this repository is: \[!\[DOI](https://zenodo.org/badge/1279461667.svg)](https://doi.org/10.5281/zenodo.20866661)
+
+
 
