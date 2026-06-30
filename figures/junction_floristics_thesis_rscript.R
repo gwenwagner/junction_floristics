@@ -61,7 +61,7 @@ ggplot(j_climate_long_t, aes(x = monthname, y = ((value-32)*(5/9)), group = clim
                                             "Monthly Average Temp",
                                             "Monthly Average Min Temp"),
                      values = c(15, 19, 17)) +
-  ylim(0, 40) +
+  ylim(-10, 40) +
   labs(#title = "Monthly Temperature Normals for Junction, TX (1991 - 2020)",
        x = "Month",
        y = "Temperature (°C)") +
