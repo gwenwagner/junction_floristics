@@ -31,10 +31,10 @@ shannon_index_t
 
 ## Calculate mean Shannon's diversity index for each habitat 
 ## (average of 3 transects)
-shannon_index_mean <- ddply(shannon_index_t, .(habitat), 
+shannon_index_hab <- ddply(shannon_index_t, .(habitat), 
                          function(shannon_index_t)
                            mean(shannon_index_t$V1))
-shannon_index_mean
+shannon_index_hab
 
 ## N. leucotricha percent of total cover calc
 ### total cover calc
